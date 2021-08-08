@@ -1,0 +1,29 @@
+{
+  "name": "obsession",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zahrakaabi13/Chef-d-oeuvre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zahrakaabi13/Chef-d-oeuvre/issues"
+  },
+  "homepage": "https://github.com/zahrakaabi13/Chef-d-oeuvre#readme",
+  "description": ""
+}

@@ -1,0 +1,20 @@
+:root {
+    --clr-basic-text : #fff;
+    --clr-first-color: #A06C4A;
+  }
+.Footer{
+    padding: 5% 10%;
+    background-color: var(--clr-first-color);
+    color: var(--clr-basic-text);
+    font-family:Roboto, sans-serif;
+}
+.contact-icons{
+    margin-top: 50%;
+}
+.Footer-block .linked--page{
+    display: block !important;
+}
+.adress p{
+    font-size: 0.9rem;
+    line-height: 1rem;
+}

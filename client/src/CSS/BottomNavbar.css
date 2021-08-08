@@ -1,0 +1,23 @@
+/*Navbar====
+=======================================================================*/
+.higherMenu{
+    background-color: var(--clr-first-color) !important;
+  }
+  .linked--page{
+    text-decoration: none;
+    color: var(--clr-basic-text);
+  }
+  .linked--page:hover{
+    text-decoration: none;
+    color: var(--clr-basic-text);
+  }
+  .bag{
+    background-color: transparent;
+    color : var(--clr-basic-text);
+    border-radius: 50%;
+    border: 1px solid var(--clr-basic-text);
+    font-size: 0.9rem;
+  }
+  .logo{
+    font-size: 1.2rem;
+  }

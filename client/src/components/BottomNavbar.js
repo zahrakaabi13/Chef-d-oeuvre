@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export const BottomNavbar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" className="higherMenu mt-5 pt-3" fixed="top">
+        <Navbar collapseOnSelect expand="lg" className="higherMenu mt-5 pt-3" fix0ed="top" id="ColorNav">
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 

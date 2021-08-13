@@ -4,3 +4,6 @@ export const GET_PRODUCT_API = `${SERVER_BASE_API}product/get`
 export const ADD_PRODUCT_API = `${SERVER_BASE_API}product/post`
 export const UPDATE_PRODUCT_API = `${SERVER_BASE_API}product/update/:id`
 export const DELETE_PRODUCT_API = `${SERVER_BASE_API}product/delete/:id`
+
+//contact
+export const ADD_CONTACT_API = `${SERVER_BASE_API}contact/post`

@@ -13,10 +13,12 @@ app.use(cors())
 const client = require('./routes/ClientRoute.js')
 const design = require('./routes/DesignRoute.js')
 const product = require('./routes/ProductRoute.js')
+const contact = require('./routes/ContactRoute.js')
 
 app.use('/OBSESSION/client',client)
 app.use('/OBSESSION/desing',design)
 app.use('/OBSESSION/product',product)
+app.use('/OBSESSION/contact',contact)
 
 //cnx to server
 app.listen('4000', (err) => {

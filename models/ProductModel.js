@@ -30,6 +30,10 @@ const productSchema = new Schema({
     },
     sizeProduct :{
         type : String
+    },
+    rateProduct :{
+        type : Number,
+        required : true
     }
 })
 module.exports = product = mongoose.model('product',productSchema)

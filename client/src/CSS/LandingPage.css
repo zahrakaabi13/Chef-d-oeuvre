@@ -1,0 +1,447 @@
+.LandingMenu{
+    background-color: #FAF1E1;
+    font-size: 1rem !important;
+  }
+.ccc{
+    padding: 0 !important;
+}
+.LandingMenu .border-bottom{
+    border-bottom: 1px solid #000000 !important;
+}
+.landing-linked--page{
+    text-decoration: none;
+    color: #000;
+  }
+.landing-linked--page:hover{
+    text-decoration: none;
+    color: #000;
+  }
+.landing-bag{
+    background-color: transparent;
+    color : #000;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    font-size: 0.9rem;
+  }
+
+/*Landing page ===
+=========================================================================*/
+#Landing{
+    position: relative;
+    padding: 5% 3% 8% 3%;
+    background-color: #FAF1E1;
+}
+#Landing h1 {
+    position: absolute;
+    font-family: Amiri;
+    font-size: 7rem;
+    letter-spacing: 1rem;
+    line-height: 7.3rem;
+    padding: 5% 0 0 8%;
+}
+#Landing .vint{
+    position: absolute;
+    z-index:1;
+    margin-top: 12%;
+    background-color:#000;
+    height: 3.5px;
+    width: 25%;
+}
+#Landing .knit{
+    margin-left: 30%;
+}
+#Landing p {
+    font-family: Uchen;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding: 18% 0;
+}
+#Landing img{
+    width: 100%;
+}
+
+
+/*package section ==
+=================================================================*/
+.package h1 {
+    font-family: Amiri;
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+.package img{
+    width: 50%;
+}
+.package p:first-of-type{
+    font-family: Amiri;
+    font-size: 1.7rem;
+}
+.package p:nth-of-type(2){
+    font-family: Uchen;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    word-spacing: 0.5rem;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+.package p:nth-of-type(3){
+    font-family: Uchen;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    word-spacing: 0.5rem;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.make-purchase{
+    background-color: #583B28;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.3% 5%;
+    margin-top: 50%;
+}
+.make-purchase:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*art community ==
+===================================================================*/
+.art-community h1{
+    font-family:Uchen;
+    font-size:5rem;
+    line-height: 4.5rem;
+    letter-spacing: 0rem;
+}
+.wrapper-art-community{
+    margin-top: 8%;
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+}
+.img-1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.img-2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.img-3{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.img-4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.img-5{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.img-6{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.img-7{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.img-8{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
+/*philosophy section====
+========================================================================*/
+.philosophy-section{
+    position: relative;
+    background-color: #FAF1E1;
+}
+.philosophy-section h1{
+    position: absolute;
+    z-index: 1;
+    margin-left: 12%;
+    font-family: Cormorant;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+.philosophy-section span{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 38%;
+    width: 15%;
+    height: 3px;
+    background-color: #000;
+}
+.philosophy-section p{
+    font-family: Cormorant;
+    font-size: 1.3rem;
+    max-width: 28ch;
+    margin: 20% 10% 0 35%;
+}
+
+.philosoph-img img:first-of-type{
+    position: absolute;
+    z-index: 1;
+    width: 18%;
+    margin-top: 11%;
+    margin-left: -12%;
+}
+.philosoph-img img:nth-of-type(2){
+    width: 57%;
+}
+.sell-button{
+    position: absolute;
+    font-family: Amiri;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: #A06C4A;
+    color: #fff;
+    padding: 1% 5%;
+    margin: 2% 20%;
+}
+.sell-button:hover{
+    color: #fff;
+}
+.top-sellers{
+    background-color: #FAF1E1;
+}
+.top-sellers header img{
+    cursor: pointer;
+    height: 60%;
+}
+.top-sellers header h3{
+    font-family: Rufina;
+}
+.product-topSellers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Robot, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive======
+========================================================================*/
+@media (max-width: 1271px) {
+    #Landing h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+  }
+@media (max-width: 980px) {
+#Landing h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+}
+@media (max-width: 832px) {
+    #Landing h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .package img{
+        margin-bottom: 2%;
+        width: 80%;
+        padding: 0 !important;
+    }
+    }
+@media (max-width: 738px) {
+    #Landing h1 {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+}
+@media (max-width: 765px) {
+    #Landing h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    #Landing img {
+        margin-top: 50%;
+    }
+  }
+@media (max-width: 618px) {
+    #Landing h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+@media (max-width: 620px) {
+    .package h1 {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+    .package p:first-of-type{
+        font-size: 1.5rem;
+    }
+    .package p:nth-of-type(2){
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-left: 15;
+        padding-right: 15%;
+    }
+    .package p:nth-of-type(3){
+        font-size: 1rem;
+        line-height: 1rem;
+        word-spacing: 0.5rem;
+    }
+    .make-purchase{
+        padding: 1% 3%;
+    }
+    .art-community h1{
+        font-size:4rem;
+        line-height: 3.5rem;
+        letter-spacing: 0rem;
+    }
+}
+
+
+#Landing img {
+    margin-top: 50%;
+}
+}
+@media (max-width: 526px) {
+    #Landing img {
+        margin-top: 60%;
+    }
+}
+
+@media (max-width: 1171px) {
+    .image-gallery img{
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .image-gallery{
+        grid-template-columns: 1fr;
+    }
+    .image-gallery img{
+        width: 100%;
+    }
+    .img-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .img-2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .img-3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .img-4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .img-5{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .img-6{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .img-7{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .img-8{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+}
+@media (max-width: 1000px) {
+    .philosophy-section h1{
+        margin-left: 12%;
+        font-size: 3rem;
+    }
+    .philosophy-section span{
+        margin-top: 5%;
+    }
+    }
+@media (max-width: 980px) {
+    .philosophy-section h1{
+        margin-left: 12%;
+        font-size: 2.5rem;
+    }
+    .philosophy-section span{
+        margin-top: 5%;
+    }
+    .philosophy-section p{
+        font-size: 1rem;
+        margin: 20% 10% 0 35%;
+    }
+    }
+@media (max-width: 760px) {
+    #Landing{
+        padding-bottom: 0 !important;
+    }
+    #Landing p{
+        padding-bottom: 0 !important;
+    }
+    .philosophy-section{
+        padding-top: 0 !important;
+    }
+    .philosophy-section h1{
+        margin-top: 0 !important;
+        margin-left: 12%;
+        font-size: 3.5rem;
+        letter-spacing: 0.3rem;
+    }
+    .philosophy-section span{
+        opacity: 0;
+    }
+    .philosophy-section p{
+        font-size: 1.5rem;
+        max-width: 35ch;
+        margin: 15% 5% 5% 20%;
+    }
+    .philosoph-img img:first-of-type{
+        width: 25%;
+        margin-top: 22%;
+        margin-left: -12%;
+    }
+    .philosoph-img img:nth-of-type(2){
+        margin-top: 11%;
+        width: 40%;
+    }
+    .sell-button{
+        margin: 2% 40%;
+    }
+    }
+
+@media (max-width: 620px) {
+    .philosophy-section h1{
+        font-size: 2.5rem;
+    }
+    .sell-button{
+        margin: -1% 35%;
+    }
+    }
+@media (max-width: 500px) {
+    .philosophy-section h1{
+        font-size: 2rem;
+    }
+    .philosophy-section p{
+        font-size: 1rem;
+        max-width: 35ch;
+        margin: 15% 5% 5% 20%;
+    }
+    .sell-button{
+        margin: -1% 35%;
+    }
+    }

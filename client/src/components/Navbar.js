@@ -4,14 +4,14 @@ import { Link } from "react-router-dom"
 export const MainMenu = () => {
     return (
         <>
-         <Navbar collapseOnSelect expand="lg" className="higherMenu" fixed="top">
+         <Navbar collapseOnSelect expand="lg" className="higherMenu" fixed="top" id="landing-Navbar">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="p-2 ms-5">
                 <Link className="linked--page me-4" to="/Shop">Shop</Link>
                 <Link className="linked--page me-4" to="/Discover us">Discover us</Link>
-                <Link className="linked--page" to="/">Get in touch</Link>
+                <Link className="linked--page" to="/Get in touch">Get in touch</Link>
                 </Nav>
 
                 <Nav className="mx-auto">

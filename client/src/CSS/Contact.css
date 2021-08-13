@@ -1,0 +1,67 @@
+.bg-contact{
+    background-image: url(../images/contactImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-form{
+  font-family: Amiri;
+}
+.contact-form h1{
+  font-size: 4.5rem;
+  line-height: 1.2rem;
+}
+.contact-form h1 span{
+  font-size: 1rem;
+  margin-left: 1%;
+}
+.contact-form input{
+  width: 90%;
+  padding: 5px;
+  margin-top: 4%;
+  border: 1.5px solid #000;
+}
+.contact-form textarea{
+  width: 90%;
+  margin-top: 4%;
+  min-height: 30vh;
+  border: 1.5px solid #000;
+}
+.contact-form button{
+  width: 90%;
+  margin-top: 4%;
+  border: 1.5px solid #000;
+  background-color: #A06C4A;
+  color: #fff;
+  padding: 10px 0;
+}
+.contact-details h1{
+  font-family: Uchen;
+  font-size: 6rem;
+  line-height: 5rem;
+}
+.contact-details span{
+  font-family: Roboto, sans-serif;
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  font-weight: 500;
+}
+.contact-inner-text{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-inner-text div i{
+  font-size: 2rem;
+}
+.contact-inner-text div h6{
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+}
+.contact-inner-text div p{
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  max-width: 24ch;
+  color: rgb(134, 134, 134);
+  margin-top: 10%;
+}

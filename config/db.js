@@ -1,15 +1,15 @@
 // database connexion
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
-const db_connexion = () => {
-    mongoose.connect('mongodb+srv://zahra123:a123456@cluster0.9zvsw.mongodb.net/OBSESSION?retryWrites=true&w=majority',
+const db_connexion = async () => {
+    await mongoose.connect(process.env.MONGO_URI,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
         useFindAndModify: true,
     })
-    .then (() => console.log('mangoDB connected'))
+    .then (() => console.log('MongoDB connected'))
     .catch(() => console.log('error'))
 }
 

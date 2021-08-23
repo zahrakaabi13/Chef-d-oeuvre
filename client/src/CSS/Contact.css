@@ -65,3 +65,24 @@
   color: rgb(134, 134, 134);
   margin-top: 10%;
 }
+
+/*Responsive
+===============================================*/
+@media (max-width: 1233px) {
+  .contact-form h1{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 900px) {
+  .contact-form h1{
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .contact-details h1{
+    font-size: 4rem;
+  }
+  .contact-details span{
+    font-size: 1rem;
+  }
+}

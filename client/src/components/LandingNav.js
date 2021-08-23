@@ -9,7 +9,7 @@ export const LandingNav = () => {
 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="p-2 ms-5">
-                <Link className="landing-linked--page me-4" to="/Shop">Shop</Link>
+                <Link className="landing-linked--page me-4" to="/Shop" exact>Shop</Link>
                 <Link className="landing-linked--page me-4" to="/Discover us">Discover us</Link>
                 <Link className="landing-linked--page" to="/Get in touch">Get in touch</Link>
                 </Nav>
@@ -20,11 +20,12 @@ export const LandingNav = () => {
 
                 <Nav className="pe-5">
                 <Link className="landing-linked--page ms-4" to="/"><box-icon name='search' color='#000' ></box-icon></Link>
-                <Link className="landing-linked--page ms-4" to="/"><box-icon name='user' color='#000' ></box-icon></Link>
-                <Link className="linked--page ms-4" to="/"><box-icon name='shopping-bag' color='#000' ></box-icon></Link>
+                <Link className="landing-linked--page ms-4" to="/register"><box-icon name='user' ></box-icon></Link>
+                <Link className="linked--page ms-4" to="/"><box-icon name='shopping-bag'></box-icon></Link>
                 <Link className="linked--page ms-1" to="/"><span className="landing-bag ps-2 pe-2 pt-1 pb-1">0</span></Link>
-                <Link className="linked--page ms-4" to="/"><box-icon name='heart' color='#000' ></box-icon></Link>
+                <Link className="linked--page ms-4" to="/"><box-icon name='heart'></box-icon></Link>
                 <Link className="linked--page ms-1" to="/"><span className="landing-bag ps-2 pe-2 pt-1 pb-1">0</span></Link>
+                <Link className="linked--page ms-4" to="/Menu" exact><box-icon name='menu-alt-right'></box-icon></Link>
                 </Nav>
 
             </Navbar.Collapse>

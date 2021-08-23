@@ -20,11 +20,12 @@ export const MainMenu = () => {
 
                 <Nav className="pe-5">
                 <Link className="linked--page ms-4" to="/"><box-icon name='search' color='#ffffff' ></box-icon></Link>
-                <Link className="linked--page ms-4" to="/"><box-icon name='user' color='#ffffff' ></box-icon></Link>
+                <Link className="linked--page ms-4" to="/register"><box-icon name='user' color='#ffffff' ></box-icon></Link>
                 <Link className="linked--page ms-4" to="/"><box-icon name='shopping-bag' color='#ffffff' ></box-icon></Link>
                 <Link className="linked--page ms-1" to="/"><span className="bag ps-2 pe-2 pt-1 pb-1">0</span></Link>
                 <Link className="linked--page ms-4" to="/"><box-icon name='heart' color='#ffffff' ></box-icon></Link>
                 <Link className="linked--page ms-1" to="/"><span className="bag ps-2 pe-2 pt-1 pb-1">0</span></Link>
+                <Link className="linked--page ms-4" to="/Menu" exact><box-icon name='menu-alt-right' color="#fff"></box-icon></Link>
                 </Nav>
 
             </Navbar.Collapse>

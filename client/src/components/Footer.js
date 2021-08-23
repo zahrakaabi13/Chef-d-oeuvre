@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export const Footer = () => {
     return (
         <>
-             <Row className="Footer mt-5">
+             <Row className="Footer">
                  <Col md={3}>
                      <h4>OBSESSION</h4>
                      <div className="contact-icons">

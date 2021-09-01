@@ -28,6 +28,7 @@ body{
   position: fixed;
 }
 
+
 /*Navbar====
 =======================================================================*/
 .higherMenu{
@@ -51,7 +52,10 @@ body{
 .logo{
   font-size: 1.2rem;
 }
-
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  margin-bottom: 5%;
+}
 
 /*DiscoverUs ===
 =====================================================================*/

@@ -1,4 +1,4 @@
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 
 
@@ -15,7 +15,7 @@ export const BottomNavbar = () => {
                 <Link className="linked--page me-4" to="/">MEN</Link>
                 <Link className="linked--page me-4" to="/">WOMAN</Link>
                 <Link className="linked--page me-4" to="/">CUSTOM</Link>
-                <Link className="linked--page" to="/">COMMUNITY</Link>
+                <Link className="linked--page me-4" to="/">COMMUNITY</Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

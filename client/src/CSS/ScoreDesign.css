@@ -1,0 +1,10 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.score-design-title{
+    font-size: 4.5rem;
+    line-height: 3.5rem;
+}

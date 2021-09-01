@@ -1,0 +1,224 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --clr-dash-content : #A06C4A
+}
+
+
+/* admin navbar == 
+===============================================================*/
+.admin-nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.admin-nav ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 1%;
+}
+.admin-nav ul li i{
+   font-size: 1rem;
+   color: var(--clr-dash-content);
+   background-color: #fff;
+   border-radius: 50%;
+   padding: 10px;
+ }
+.search-box{
+    display: flex;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+}
+.search-box i{
+    color: var(--clr-dash-content);
+    padding: 5px;
+}
+.search-box .input-search{
+    border: none;
+    outline: 0;
+}
+.admin_hover_nav {
+    background-color: #fff;
+    position: absolute; 
+    top: 105%;
+    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+}
+.admin_hover_nav li{
+    display: none;
+}
+.admin-nav ul li:hover > .admin_hover_nav li{
+    display: block;
+}
+
+.admin_hover_nav li {
+    padding: 5px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.dash-linked{
+    text-decoration: none;
+    color: #000;
+}
+
+.dash-linked:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* dashbord landing page*/
+.dashLanding{
+    background-color: #f4f4fc;
+    border-radius: 25px;
+    padding: 2%;
+}
+.dashLanding h1{
+    font-size: 1.3rem;
+}
+
+.dash-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.dash_box{
+    background-color: #fff;
+    width: 30%;
+    padding: 2%;
+    border-radius: 25px;
+}
+.box_icons{
+    display: flex;
+    justify-content: space-between;
+}
+.box_icons .dash_shop_bag{
+    color: #fff;
+    background-color: var(--clr-dash-content);
+    border-radius: 10px;
+    padding: 10px;
+}
+.dash_box_text{
+    color: rgb(71, 71, 71);
+}
+
+.parag{
+    color: rgb(80, 80, 80);
+}
+.sell-order-wrapper{
+    background-color: var(--clr-dash-content);
+    border-radius: 25px;
+    width: 30%;
+}
+.sell-order-title{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.sell{
+    color: #fff;
+}
+.dash-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    border: none !important;
+    color: #fff;
+}
+.table>:not(caption)>*>*{
+    border: none !important;
+}
+.table tbody tr:hover{
+    color: #fff !important;
+    border-radius: 15px !important;
+}
+
+
+/* sidebar ====
+============================================*/
+.sidebar_wrapper{
+    position: fixed;
+    background-color: var(--clr-dash-content);
+    min-height: 100vh !important;
+    padding-right: 0 !important;
+}
+.content_wrapper{
+    position: relative;
+    margin-left: 15% !important;
+}
+.main_dash{
+    background-color: #ebebf5;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.logo_dash {
+    height: 60px;
+    box-shadow: 0px 2px 4px rgba(54, 30, 30, 0.5);
+}
+.linked_dash{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20%;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.linked_dash:hover{
+    color: #fff;
+}
+
+.menu_container{
+    margin-top: 20%;
+}
+.dash_links_tabs{
+    font-size: 1.3rem;
+    padding: 3px 0 3px 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.dash_links_tabs:hover{ 
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 7px 0px 6px rgba(255, 255, 255, 0.1);
+    border-left: 2px solid #fff;
+}
+.dash_links_tabs:focus,
+.dash_links_tabs:active{
+    color: #fff;
+    box-shadow: 7px 0px 6px rgba(255, 255, 255, 0.1);
+    border-left: 2px solid #fff;
+}
+
+/*products dashboard ===
+=========================================================*/
+.product_table,
+.product_table th,
+.product_table td {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000 !important;
+}
+
+.product_table th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:var(--clr-dash-content);
+}
+.edit_product_button,
+.delete_product_button{
+    border: none;
+    background-color: transparent !important;
+}
+.add-button{
+    float: right;
+}

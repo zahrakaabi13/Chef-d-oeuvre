@@ -20,6 +20,7 @@ module.exports = {
         const colorProduct = req.body.colorProduct
         const sizeProduct = req.body.sizeProduct
         const rateProduct = req.body.rateProduct
+        const quantityProduct = req.body.quantityProduct
         try{
             const product = new PRODUCT({
                 imageProduct,
@@ -31,7 +32,8 @@ module.exports = {
                 priceProduct,
                 colorProduct,
                 sizeProduct,
-                rateProduct
+                rateProduct,
+                quantityProduct
             })
             await product.save()
             res.json(product)

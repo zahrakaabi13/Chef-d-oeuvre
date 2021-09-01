@@ -1,4 +1,4 @@
-import {fetchProduct} from '../request'
+import {fetchProduct, fetchAddProduct} from '../request'
 
 export function getProduct() {
     return dispatch => {
@@ -11,4 +11,38 @@ export function getProduct() {
             payload: err
           }))
     }
+}
+
+export const addProduct=(imageProduct,
+    frontViewProduct,
+    backViewProduct,
+    rightSideViewProduct,
+    leftSideViewProduct,
+    nameProduct,
+    priceProduct,
+    colorProduct,
+    sizeProduct,
+    rateProduct,
+    quantityProduct)=> async (dispatch) =>{
+    try{
+        const res = await fetchAddProduct (imageProduct,
+            frontViewProduct,
+            backViewProduct,
+            rightSideViewProduct,
+            leftSideViewProduct,
+            nameProduct,
+            priceProduct,
+            colorProduct,
+            sizeProduct,
+            rateProduct,
+            quantityProduct);
+        dispatch ({
+            type:"ADD_PRODUCT_SUCCED",     
+            payload:res.data
+        })
+        console.log("payload")
+    }
+    catch (error) {
+              console.log(error);
+             }
 }

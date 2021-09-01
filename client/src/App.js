@@ -8,6 +8,9 @@ import { Shop } from './pages/Shop'
 import { Contact } from "./pages/Contact";
 import { Landing } from './pages/Landing'
 import { Menu } from './components/Menu';
+import { Dashbord } from './pages/Admin/Dashbord'
+
+
 // Routing
 import { PrivateRoute } from "./components/routing_auth/PrivateRoute";
 // Screens
@@ -41,12 +44,16 @@ const App = () =>{
     ))} */}
     <BrowserRouter>
         <Cursor/>
+
       <Switch>
         <Route exact path="/" component={ Landing } />
         <Route exact path="/Menu" component={ Menu } />
         <Route path="/Discover us" component= {DiscoverUs } />
         <Route path="/Shop" component={ Shop } />
         <Route path="/Get in touch" component={ Contact } />
+        <Route path="/dashbord" component={ Dashbord } />
+  
+       
 
         {/* authentification */}
         <PrivateRoute exact path="/private" component={PrivateScreen} />

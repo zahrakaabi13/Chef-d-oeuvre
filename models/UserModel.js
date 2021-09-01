@@ -48,9 +48,21 @@ UserSchema.methods.matchPassword = async function(password){
 }
 
 UserSchema.methods.getSignedJwtToken = function () {
-    return jwt.sign({ id: this._id}, process.env.JWT_SECRET, {
-        expiresIn : process.env.JWT_EXPIRE,
-    })
+    // return jwt.sign({ id: this._id }, process.env.JWT_SECRET, {
+    //     expiresIn : process.env.JWT_EXPIRE,
+    // })
+
+    /*added part ------------------------------------------*/
+    const user = User.find(u => u.username === username && u.password === password);
+    if (user) {
+        const token = jwt.sign({ id: this._id }, process.env.JWT_SECRET, { 
+            expiresIn : process.env.JWT_EXPIRE })
+        const { password, ...userWithoutPassword } = user;
+        return {
+            ...userWithoutPassword,
+            token
+        };
+    }
 }
 
 

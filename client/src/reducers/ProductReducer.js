@@ -11,6 +11,11 @@ export  const productReducer = (state = product, action ) => {
                 ...state,
                 datas: payload,
               };
+        case  "ADD_PRODUCT_API":
+          return{
+              ...state,
+              datas:[ ...state.datas, payload]
+          };
     }
 return state
 };

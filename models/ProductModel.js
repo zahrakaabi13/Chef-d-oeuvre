@@ -32,6 +32,9 @@ const productSchema = new Schema({
         type : String
     },
     rateProduct :{
+        type : Number
+    },
+    quantityProduct :{
         type : Number,
         required : true
     }
